@@ -1,0 +1,3 @@
+.classname then tab will create divs, use another "." to make specific names
+
+.classname*3 then tab will create 3 of those divs
