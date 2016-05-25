@@ -47,3 +47,51 @@ footer {
   height: 100px;
   color: white;
 }
+
+@media screen and (max-width : 768px) {
+  .container-fluid {
+    background-color: green;
+  }
+  .header {
+    background-color: orange;
+  }
+  .nav {
+    background-color: purple;
+  }
+  .content {
+    background-color: blue;
+  }
+  .aside {
+    background-color: red;
+  }
+  .promo {
+    background-color: pink;
+  }
+  footer {
+    background-color: yellow;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .container-fluid {
+    background-color: purple;
+  }
+  .header {
+    background-color: black;
+  }
+  .nav {
+    background-color: orange;
+  }
+  .content {
+    background-color: green;
+  }
+  .aside {
+    background-color: blue;
+  }
+  .promo {
+    background-color: red;
+  }
+  footer {
+    background-color: pink;
+  }
+}
